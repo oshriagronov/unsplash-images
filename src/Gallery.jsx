@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { isError, useQuery } from "@tanstack/react-query";
 import { useAppContext } from "./context";
 import customFetch from "./utils";
 
@@ -15,19 +15,19 @@ const Gallery = () => {
   });
   if (isLoading)
     return (
-      <section className="image-container">
-        <h4>Loading...</h4>;
+      <section style={{ marginTop: "3rem" }}>
+        <div className="loading"></div>
       </section>
     );
   if (isError)
     return (
-      <section className="image-container">
+      <section style={{ textAlign: "center", marginTop: "3rem" }}>
         <h4>{isError}</h4>
       </section>
     );
   if (data?.results.length < 1)
     return (
-      <section className="image-container">
+      <section style={{ textAlign: "center", marginTop: "3rem" }}>
         <h4>No results found..</h4>
       </section>
     );
