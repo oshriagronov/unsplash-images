@@ -1,52 +1,84 @@
-# Unsplash Images
+<br />
+<div align="center">
+  <a href="https://github.com/oshriagronov/unsplash-images">
+    <img src="logo.png" alt="Logo" width="200" height="200">
+  </a>
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-<br>
-The project is a Unsplash "copy", using Unsplash API.
+<h3 align="center">Unsplash Images</h3>
+  <p align="center">
+    Simple clone of the site Unsplash.
+  </p>
+</div>
 
-## Table of contents
+## About
 
-- [General info](#general-info)
-- [Technologies](#technologies)
-- [Features](#features)
-- [Setup](#setup)
-- [Acknowledgements](#acknowledgements)
+The project is a Unsplash clone where you can search for photos.
 
-## General info
-
-The project is a Unsplash copy where you can search for photos (as much as the API allows).
-In addition, you can switch between light and dark modes.
-
-## Technologies
-
-- Software language: JavaScript, HTML, CSS.
-- Vite
-- React - React Hooks, React query, Axios.
-- Unsplash API.
-
-## Features
+### Key features
 
 - Search for Images
 - Support for Dark and Light Modes
-- The site remembers the mode(dark or light) you choose, and on your first use, it will automatically switch to Dark or Light mode based on your operating system's preference.
+- Automatically switch to Dark or Light mode based on your operating system's preference.
+- Remembers the theme you choose.
 
-## Setup
+## Technologies Used
 
-To run Unsplash Images you need:
+- js, html & css.
+- Vite
+- React - React Hooks, React query, Axios.
 
-- npm modules i used.
-- Unsplash API keys.
 
-### How to start?
+## Tools Utilized
+- Unsplash API
 
-This project was created with VITE, so all you need is to run `npm i` then create a `.env` file in the root and add there your key like that: `VITE_API_KEY = <API_KEY_HERE>`.
-After that, run `npm run dev` in the project directory.
-Finally, the site runs in the development mode, open [http://localhost:5173](http://localhost:5173/) to view it in your browser.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Linux, MacOS or Windows
+- nodejs
+- npm
+- Api key from Unsplash: https://unsplash.com/developers
+
+### Installation
+
+---
+
+1. **Clone and enter the unsplash-images repository:**
+
+   ```bash
+   git clone https://github.com/oshriagronov/unsplash-images && cd unsplash-images
+   ```
+
+2. **Install npm modules:**
+
+   ```bash
+   sudo npm i
+   ```
+
+3. **create .env file for api key**  
+   _(Make sure you get api key from Unsplash – see [Prerequisites](#prerequisites)):_
+
+   ```bash
+   touch .env
+   ```
+
+4. **Add the api key to .env :**
+   ```bash
+   VITE_API_KEY = <API_KEY_HERE>`.
+   ```
+
+5. **Run the project:**
+    ```bash
+      npm run dev
+    ```
+
+6. **Go to the site:**
+   The site runs in the development mode, open [http://localhost:5173](http://localhost:5173/) to view it in your browser
+
 
 ## Acknowledgements
 
