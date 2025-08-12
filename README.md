@@ -68,7 +68,7 @@ To get a local copy up and running follow these simple steps.
 
 4. **Add the api key to .env :**
    ```bash
-   VITE_API_KEY = <API_KEY_HERE>`.
+   VITE_API_KEY = <API_KEY_HERE>
    ```
 
 5. **Run the project:**
@@ -77,7 +77,7 @@ To get a local copy up and running follow these simple steps.
     ```
 
 6. **Go to the site:**
-   The site runs in the development mode, open [http://localhost:5173](http://localhost:5173/) to view it in your browser
+   <br/>The site runs in the development mode, open [http://localhost:5173](http://localhost:5173/) to view it in your browser
 
 
 ## Acknowledgements
