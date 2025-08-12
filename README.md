@@ -12,7 +12,8 @@
 
 ## About
 
-The project is a Unsplash clone where you can search for photos.
+This project is an image search application built with modern technologies like Vite and React and utilizes the Unsplash API.
+<br/>The development leveraged various tools, including React Hooks, React Query, and Axios.
 
 ### Key features
 
